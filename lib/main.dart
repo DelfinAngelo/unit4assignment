@@ -61,7 +61,7 @@ class Unit4App extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(vertical: 8.0),
                       child: Row(
                         children: [
-                          Icon(info['icon'] as IconData), // Explicitly casting
+                          Icon(info['icon'] as IconData), 
                           SizedBox(width: 8),
                           Text(
                             '${info['title']}:',
